@@ -16,4 +16,30 @@ Implicit wait is valid for the life of the webdriver.
 Run entire test suite
 
 
-     `  mvn clean test`
+      mvn clean test
+
+To run individual feature file 
+
+mvn clean test - cucumber.filter.tags="@tagName"
+
+### git commands
+    git init
+    git add
+    git commit - m "first commit"
+    git push - u origin main
+    git diff README.md
+
+to get update from github to your local machine 
+      git full 
+
+Check existing branches
+
+    git branch
+
+Create a new branch 
+
+    git checkout -b gha_run_test
+
+Switch branches
+
+     git checkout BRANCH_NAME
